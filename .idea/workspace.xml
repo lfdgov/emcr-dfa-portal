@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e697d30-d48a-45af-980d-77e78f70b45d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/bin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/bin/chr.ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/bin/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/bin/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/bin/sqljdbc4-4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/Atest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/Concurent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/ConcurrentJunitRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/ConcurrentSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/WaitTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFAautomationTests/src/main/java/dfa/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/dfa_cleanup" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QWgNTNFV6jIQXmO2KCUtVfesXO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DFAautomationTests" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace4\emcr-dfa-portal\DFAautomationTests" />
+      <recent name="C:\workspace4\emcr-dfa-portal\DFAautomationTests\src\main\java" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e697d30-d48a-45af-980d-77e78f70b45d" name="Changes" comment="" />
+      <created>1685474711920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685474711920</updated>
+    </task>
+    <servers />
+  </component>
+</project>
