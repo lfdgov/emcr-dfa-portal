@@ -43,7 +43,6 @@ const routes: Routes = [
       import(
         './feature-components/dfa-prescreening/dfa-prescreening.module'
       ).then((m) => m.DFAPrescreeningModule),
-    //canActivate: [AuthGuard]
   },
   {
     path: 'dfa-dashboard',
