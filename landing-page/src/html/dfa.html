@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Evacuee Registration and Assistance (ERA)</title>
+	<title>EMCR Disaster Financial Assistance (DFA)</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 	<style>
 
@@ -164,7 +164,9 @@ a:hover {
     margin-bottom: 20px;
 }
 
-
+.homeBackground {
+    background-color: rgb(4 0 6 / 40%);
+}
 
 .container {
 	max-width: 1262px;
@@ -211,6 +213,15 @@ a:hover {
 	background: url(img/dfa_bghome.png) no-repeat center right;
 	background-size: 100%;
 }
+/*.hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(152, 66, 211, 0.63);
+}*/
 .hero-content {
 	padding: 30px 0 10px 0;
 	width:50%;
@@ -330,7 +341,7 @@ a:hover {
 	color: #fff;
 }
 
-.era {
+.dfa {
 	max-width: 108px;
 }
 
@@ -355,59 +366,59 @@ a:hover {
 	}
 }
 
-/** What is ERA **/
-.what-era {
+/** What is DFA **/
+.what-dfa {
 	padding: 50px 0 70px 0;
 	margin: 0 auto;
 	max-width: 900px;
 }
 
-.--what-era-layout {
+.--what-dfa-layout {
 	display: flex;
 	flex-direction: column;
 }
 
 @media (min-width: 720px) {
-	.--what-era-layout {
+	.--what-dfa-layout {
 		display: flex;
 		flex-direction: row;
 	}
 }
 
-.--what-era-img {
+.--what-dfa-img {
 	width: 149px;
 	margin-bottom: 16px;
 }
 
 
 @media (min-width: 720px) {
-	.what-era-description {
+	.what-dfa-description {
 		padding-left: 30px;
 	}
 }
 
 
 
-/** Register Era **/
+/** Register Dfa **/
 
-.register-era {
+.register-dfa {
 	width: 100%;
 	background-color: #e5e5e5;
 	padding: 50px 0;
 
 }
-.--register-era-layout {
+.--register-dfa-layout {
 	display: flex;
 	flex-direction: column;
 }
 
 @media (min-width: 720px) {
-	.--register-era-layout {
+	.--register-dfa-layout {
 		flex-direction: row;
 	}
 }
 
-.register-era .container {
+.register-dfa .container {
 	max-width: 900px;
 }
 
@@ -415,25 +426,25 @@ a:hover {
 
 
 @media (min-width: 720px) {
-	.register-era-img {
+	.register-dfa-img {
 		margin-left: 40px;
 	}
 }
 
-.register-era-img {
+.register-dfa-img {
 	width: 163px;
 }
 
-.register-era-link {
+.register-dfa-link {
 	display: block;
 }
 
-.register-era-image {
+.register-dfa-image {
 	order: -3;
 }
 
 @media (min-width: 720px) {
-	.register-era-image {
+	.register-dfa-image {
 		order: 3;
 	}
 }
@@ -582,7 +593,7 @@ a:hover {
 
 	<main>
 		<section class="hero">
-			<div class="container">
+			<div class="container homeBackground">
 				<div class="hero-content">
 					<div>
 						<h1>Disaster Financial Assistance (DFA)</h1>
@@ -611,12 +622,12 @@ a:hover {
 
 <div class="grey-wrapper">
 		
-		<section class="what-era">
-			<div class="container --what-era-layout">
-				<div class="what-era-img">
-					<img class="--what-era-img" src="img/whatisera.svg" alt="ERA User Illustration">
+		<section class="what-dfa">
+			<div class="container --what-dfa-layout">
+				<div class="what-dfa-img">
+					<img class="--what-dfa-img" src="img/whatisdfa.svg" alt="DFA User Illustration">
 				</div>
-				<div class="what-era-description">
+				<div class="what-dfa-description">
 					<h3>What is DFA?</h3>
 					<p>Disaster events can be stressful, please refer to our disaster recovery resources to help guide your next steps to recovery</p>
 					<a class="--link-light-blue" href="https://www2.gov.bc.ca/gov/content/safety/emergency-management/local-emergency-programs/financial/communities-dfa" target="_blank">Find out more ></a>
@@ -624,16 +635,16 @@ a:hover {
 			</div>
 		</section>
 	</div>
-			<section class="register-era">
-				<div class="container --register-era-layout">
-					<div class="register-era-description">
+			<section class="register-dfa">
+				<div class="container --register-dfa-layout">
+					<div class="register-dfa-description">
 						<h3>Register with DFA</h3>
 						<p>If you have a BC Services Card and there is a declared disaster event you can now self-register for DFA</p>
 						<a class="btn btn--regular btn--dark-blue" href="https://dfa.gov.bc.ca/registration-method" target="_blank">Create Profile</a>
-						<a class="--link-light-blue register-era-link" href="https://dfa.gov.bc.ca/registration-method" target="_blank">Already registered? Log in ></a>
+						<a class="--link-light-blue register-dfa-link" href="https://dfa.gov.bc.ca/registration-method" target="_blank">Already registered? Log in ></a>
 					</div>
-					<div class="register-era-image">
-						<img class="register-era-img" src="https://ess.gov.bc.ca/img/preparedness.svg" alt="Umbrella Illustration">
+					<div class="register-dfa-image">
+						<img class="register-dfa-img" src="https://ess.gov.bc.ca/img/preparedness.svg" alt="Umbrella Illustration">
 					</div>
 				</div>
 			</section>
@@ -645,8 +656,11 @@ a:hover {
 					</div>
 					<div class="contact-cta-description">
 						<h3>Contact Us</h3>
-						<p>If you have any questions or need assistance,<br>please contact DFA Support toll-free at <a class="--link-orange" href="tel:18445377377">1-1844-537-7377</a>.</p>
-						<p>Send DFA Tool Technical Support inquiries <a class="--link-orange" href="mailto:DFA.private@gov.bc.ca">here</a>.</p>
+						<p>For questions or more information, contact the Disaster Financial Assistance team.<br>
+						toll-free at <a class="--link-orange" href="tel:18882574777">1-888-257-4777</a> or by email at <a class="--link-orange" href="mailto:DFA.Private@gov.bc.ca">DFA.Private@gov.bc.ca</a> for individuals, small
+						<br>businesses, charitable organizations and farms or <a class="--link-orange" href="mailto:DFA.Public@gov.bc.ca">DFA.Public@gov.bc.ca</a> for local
+						<br>governments and Indigenous Governing Bodies.
+						<p>Send DFA Technical Support inquiries <a class="--link-orange" href="mailto:DFA.private@gov.bc.ca">here</a>.</p>
 					</div>
 				</div>
 			</section>
@@ -655,23 +669,23 @@ a:hover {
 	<footer class="site-footer">
 		<div class="container --site-footer-layout">
 			<div class="site-footer-phone-number">
-				Contact DFA Support toll-free at <a class="--link-black" href="tel:18445377377">1-844-537-7377</a>
+				Contact DFA Support toll-free at <a class="--link-black" href="tel:18882574777">1-888-257-4777</a>
 			</div>
 			<div>
 				<ul class="site-footer-links">
-					<li><a href="/">Home</a></li>
+					<li><a href="https://dfa.gov.bc.ca/" target="_blank">Home</a></li>
 					<span class="divider">|</span>
-					<li><a href="https://www2.gov.bc.ca/gov/content/about-gov-bc-ca">About gov.bc.ca</a></li>
+					<li><a target="_blank" href="https://www2.gov.bc.ca/gov/content/about-gov-bc-ca">About gov.bc.ca</a></li>
 					<span class="divider">|</span>
-					<li><a href="https://www2.gov.bc.ca/gov/content/home/disclaimer">Disclaimer</a></li>
+					<li><a target="_blank" href="https://www2.gov.bc.ca/gov/content/home/disclaimer">Disclaimer</a></li>
 					<span class="divider">|</span>
-					<li><a href="https://www2.gov.bc.ca/gov/content/home/privacy">Privacy</a></li>
+					<li><a target="_blank" href="https://www2.gov.bc.ca/gov/content/home/privacy">Privacy</a></li>
 					<span class="divider">|</span>
-					<li><a href="https://www2.gov.bc.ca/gov/content/home/accessibility">Accessibility</a></li>
+					<li><a target="_blank" href="https://www2.gov.bc.ca/gov/content/home/accessibility">Accessibility</a></li>
 					<span class="divider">|</span>
-					<li><a href="https://www2.gov.bc.ca/gov/content/home/copyright">Copyright</a></li>
+					<li><a target="_blank" href="https://www2.gov.bc.ca/gov/content/home/copyright">Copyright</a></li>
 					<span class="divider">|</span>
-					<li><a href="https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services">Contact Us</a></li>
+					<li><a target="_blank" href="https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
